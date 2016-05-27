@@ -28,5 +28,8 @@
     "grunt-xml-sitemap": "^0.2.0",
     "handlebars-helpers": "^0.5.8",
     "pixrem": "^3.0.0"
+  },
+  "dependencies": {
+    "ruby": "^0.6.1"
   }
 }
