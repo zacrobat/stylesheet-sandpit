@@ -22,11 +22,20 @@ img.image-located {
   margin: 0 0 0 700px;
 }
 
-h1, h2, h3, h4, h5, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
   text-align: center;
 }
 
-h2, h3, h4, h5, p {
+h2,
+h3,
+h4,
+h5,
+p {
   font-family: "Copernicus-Book", "Times New Roman";
   color: black;
 }
@@ -103,7 +112,59 @@ p.text-subheading {
   width: 90px;
   height: 90px;
   line-height: 90px;
-  margin: 10px auto 20px;
+}
+
+.add-number-1, .add-number-2, .add-number-3 {
+  margin-top: 110px;
+  position: relative;
+}
+
+.add-number-1:before {
+  content: '1';
+  font-family: "GT-Walsheim-Bold", Arial;
+  font-size: 65px;
+  text-align: center;
+  line-height: 100px;
+  color: #00c38c;
+  border: 1px solid #00c38c;
+  position: absolute;
+  border-radius: 50%;
+  display: block;
+  height: 100px;
+  width: 100px;
+  margin: -110px 25%;
+}
+
+.add-number-2:before {
+  content: '2';
+  font-family: "GT-Walsheim-Bold", Arial;
+  font-size: 65px;
+  text-align: center;
+  line-height: 100px;
+  color: #00c38c;
+  border: 1px solid #00c38c;
+  position: absolute;
+  border-radius: 50%;
+  display: block;
+  height: 100px;
+  width: 100px;
+  margin: -110px 25%;
+}
+
+.add-number-3:before {
+  content: '3';
+  font-family: "GT-Walsheim-Bold", Arial;
+  font-size: 65px;
+  text-align: center;
+  line-height: 100px;
+  color: #00c38c;
+  border: 1px solid #00c38c;
+  position: absolute;
+  border-radius: 50%;
+  display: block;
+  height: 100px;
+  width: 100px;
+  margin: -110px 25%;
 }
 
 .branded-link {
