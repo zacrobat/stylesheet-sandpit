@@ -114,7 +114,9 @@ p.text-subheading {
   line-height: 90px;
 }
 
-.add-number-1, .add-number-2, .add-number-3 {
+.add-number-1,
+.add-number-2,
+.add-number-3 {
   margin-top: 110px;
   position: relative;
 }
@@ -167,6 +169,28 @@ p.text-subheading {
   margin: -110px 25%;
 }
 
+@media (max-width: 991px) {
+  h1 {
+    font-size: 45px;
+  }
+
+  .add-number-1,
+  .add-number-2,
+  .add-number-3 {
+    margin-top: 110px;
+    margin-left: 105px;
+  }
+
+  .add-number-1:before, .add-number-2:before, .add-number-3:before {
+    font-size: 50px;
+    line-height: 85px;
+    height: 85px;
+    width: 85px;
+    margin-left: -110px;
+    margin-top: auto;
+    top: 50%;
+  }
+}
 .branded-link {
   color: #00c38c;
   font-family: "GT-Walsheim-Bold", Arial;
